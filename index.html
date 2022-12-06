@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+    <title>Finn Kit</title>
+</head>
+
+<body>
+    <main>
+        <section class="section_hero">
+            <div class="container section_hero__container">
+                <div class="section_hero__wrapper">
+
+                    <div class="section_hero__content">
+                        <h1 class="section_hero__heading_h1">Fin
+                            <span class="section_hero__heading_h1_right">Kit</span>
+                        </h1>
+                        <p class="section_hero__paragraph"> Гибкая мобильная платформа
+                            <br>для быстрой реализации инвестиционных сервисов.
+                        </p>
+                        <button class="btn section_hero__btn" aria-label="Заказать демо"> 
+                        Заказать демо
+                        </button>
+                    </div>
+
+                    <!--расценила изображение как контентное, поэтому помещаю в тег img, а не в background-->
+                    <picture class="section_hero__picture">
+                        <source srcset="./img/hero_2x.webp 2x" media="(min-width:900px)">
+                        <source srcset="./img/hero-little.webp 1x, ./img/hero_little_2x.webp 2x" media="(max-width:900px)">
+                        <img src=" ./img/hero.webp" class="section_hero__img" alt="Изображение платформы мобильного приложения">
+                    </picture>
+
+                    <div class="section_hero__language">
+                        <span class="section_hero__language_ru">
+                          <span class="section_about__heading_h2_color">Ru
+                          </span>
+                        </span>
+                        <span>En</span>
+                    </div>
+
+                    <ul class="section_hero__list">
+                        <li class="section_hero__item">
+                            <span class="icon icon_small icon-graph"></span>
+                            <span class="section_hero__item_text ">
+                              Удобный<br>пользовательский интерфейс</span>
+                        </li>
+
+                        <li class="section_hero__item">
+                            <span class="icon icon_small icon-activity"></span>
+                            <span class="section_hero__item_text"> 
+                              Панель администратора<br>для ведения учет</span>
+                        </li>
+
+                        <li class="section_hero__item">
+                            <span class="icon icon_small icon-filter"></span>
+                            <span class="section_hero__item_text">
+                              Простая<br> и быстрая интеграция</span>
+                        </li>
+
+                        <li class="section_hero__item">
+                            <span class="icon icon_small icon-setting"></span>
+                            <span class="section_hero__item_text"> 
+                              Гибкая<br>масштабируемая система</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_about ">
+            <div class="container section_about__container">
+                <h2 class="section_about__heading_h2 ">
+                    Наши <span class="section_about__heading_h2_color">ключевые продукты<br></span> для инвестиций
+                </h2>
+
+                <ul class="section_about__list">
+                    <li class="section_about__list_item section_about__list_item_left">
+                        <div class="section_about__list_item_text">
+                            <h3 class="section_about__heading_h3">Платформа для автоследования
+                            </h3>
+                            <p class="section_about__paragraph">Копирование стратегий в автономном режиме </p>
+                        </div>
+
+                        <picture>
+                            <source srcset="./img/strategies-little.webp" media="(max-width:900px)">
+                            <img src="./img/strategies.webp " class="section_about__img " alt="Платформа для автоследования ">
+                        </picture>
+                    </li>
+
+                    <li class="section_about__list_item section_about__list_item_right">
+                        <div class="section_about__list_item_text">
+                            <h3 class="section_about__heading_h3">Платформа для<br> робо-эдвайзинга </h3>
+                            <p class="section_about__paragraph">
+                                Персонализированный подбор стратегий исходя из заданных параметров
+                            </p>
+                        </div>
+
+                        <picture>
+                            <source srcset="./img/strategies-little.webp" media="(max-width:900px)">
+                            <img src="./img/personal.webp " class="section_about__img" alt="Платформа для робо-эдвайзинга">
+                        </picture>
+                    </li>
+                </ul>
+
+                <div class="section_about__columns ">
+
+                    <div class="section_about__left ">
+                        <h2 class="section_about__heading_h2 section_about_h2 "><span class="section_about__heading_h2_color ">
+                          Представляем ценность</span><br> для броĸера и банĸа
+                        </h2>
+                        <p class="section_about__left_paragraph ">
+                            Мы помогаем броĸерам и банĸам запустить собственное мобильное приложение для инвестиций в ĸоротĸие сроĸи и с эĸономией бюджета
+                        </p>
+                        <button class="btn section-about__btn " aria-label="Заказать демо">Заказать демо</button>
+                    </div>
+
+                    <ul class="section_about__right ">
+                        <li class="section_about__card section-about__card1 ">
+                            <span class="icon icon_big icon-5 "></span>
+                            <p>Эĸономим время и деньги<br>на запусĸ digital сервисов</p>
+                        </li>
+
+                        <li class="section_about__card section-about__card2 ">
+                            <span class="icon icon_big icon-6 "></span>
+                            <p>Создаем канал привлечения<br> новых клиентов</p>
+                        </li>
+
+                        <li class="section_about__card section-about__card2 ">
+                            <span class="icon icon_big icon-7 "></span>
+                            <p>Помогаем увеличить<br> выручку путем запуска<br> нового продукта</p>
+                        </li>
+
+                        <li class="section_about__card section-about__card2 ">
+                            <span class="icon icon_big icon-8 "></span>
+                            <p>Повышаем лояльность действующих клиентов</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+</body>
+
+</html>
