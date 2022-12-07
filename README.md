@@ -1,6 +1,6 @@
-# Сделать верстку небольшого блока: Finn-Kit
+# Тестовое задание: Сделать верстку блока Fin-Kit
 
-* https://www.figma.com/file/3RGIortwq95cfZReQ3diyp/Fin-Kit-Test
+Макет: https://www.figma.com/file/3RGIortwq95cfZReQ3diyp/Fin-Kit-Test
 
 Требования:
 * верстка на чистом HTML/CSS (без фреймворков, систем сборки и т.д.);
