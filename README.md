@@ -17,3 +17,8 @@ https://user-images.githubusercontent.com/90867396/206247936-16e9ea31-d585-47cc-
 
 
  ## Перейти в блок: [GitHubPages](https://339598u5uut.github.io/finn-kit/)
+
+### Установить локально:
+1. git clone https://github.com/339598u5uut/finn-kit.git
+2. index.html  => open with Live Server
+
